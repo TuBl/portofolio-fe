@@ -153,10 +153,9 @@
 		},
 		methods: {
 			loadProjects() {
-				window.open("mailto:test@example.com");
-				// this.batchNumber == 0
-				// 	? ((this.batchNumber = 4), (this.btnText = "Previous Projects"))
-				// 	: ((this.batchNumber = 0), (this.btnText = "More Projects"));
+				this.batchNumber == 0
+					? ((this.batchNumber = 4), (this.btnText = "Previous Projects"))
+					: ((this.batchNumber = 0), (this.btnText = "More Projects"));
 			},
 		},
 	};
