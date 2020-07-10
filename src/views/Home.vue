@@ -93,7 +93,7 @@
 			.one {
 				grid-area: one;
 				background: #272727;
-				opacity: 80%;
+				opacity: 0.8;
 				height: 100%;
 				width: 100%;
 				position: relative;
@@ -191,7 +191,7 @@
 			.four {
 				grid-area: four;
 				background: #272727;
-				opacity: 80%;
+				opacity: 0.8;
 				height: 100%;
 				width: 100%;
 			}
